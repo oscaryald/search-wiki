@@ -1,0 +1,7 @@
+<input type="text" (input)="term$.next($event.target.value)">
+
+<ul>
+  <li *ngFor="let item of items">
+    {{item}}
+  </li>
+</ul>
